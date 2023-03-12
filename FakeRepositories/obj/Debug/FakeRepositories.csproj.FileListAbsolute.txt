@@ -1,0 +1,9 @@
+C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\FakeRepositories.exe
+C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\FakeRepositories.pdb
+C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\obj\Debug\FakeRepositories.csproj.AssemblyReference.cache
+C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\obj\Debug\FakeRepositories.csproj.SuggestedBindingRedirects.cache
+C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\obj\Debug\FakeRepositories.csproj.CoreCompileInputs.cache
+C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\obj\Debug\FakeRepositories.csproj.CopyComplete
+C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\obj\Debug\FakeRepositories.exe
+C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\obj\Debug\FakeRepositories.pdb
