@@ -4,13 +4,13 @@ namespace FakeRepositories.Models;
 
 public class Character : Entity<int>
 {
-    public int AnimeId { get; set; }
+    public int AnimeId { get; }
 
-    public string Name { get; set; }
+    public string Name { get; }
 
-    public bool IsMainCharacter { get; set; }
+    public bool IsMainCharacter { get; }
 
-    public string Photo { get; set; }
+    public string Photo { get; }
 
     public Character(int animeId, string name, string photo, bool isMainCharacter)
     {

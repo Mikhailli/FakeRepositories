@@ -12,7 +12,7 @@ public class FakeGenericRepository<TEntity> : GenericRepository<TEntity> where T
     {
         
     }
-    
+
     public override TEntity GetById(int id)
     {
         if (_collection is null)

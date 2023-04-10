@@ -4,7 +4,7 @@ namespace FakeRepositories.Models;
 
 public class Genre : Entity<int>
 {
-    public string Title { get; set; }
+    public string Title { get;}
 
     public Genre(string title)
     {

@@ -13,6 +13,28 @@ public abstract class GenericRepository<TEntity> where TEntity : Entity<int>
         _collection = collection;
     }
 
+    public virtual void AddMany(IEnumerable<TEntity> entities)
+    {
+        if (_collection is null)
+        {
+            throw new ArgumentNullException(nameof(_collection));
+        }
+
+        var id = 1;
+
+        if (_collection.Any())
+        {
+            id = _collection.Max(element => element.Id) + 1;
+        }
+        foreach(var entity in entities)
+        {
+            entity.Id = id++;
+
+            _collection.Add(entity);
+        }
+
+    }
+    
     public abstract TEntity GetById(int id);
 
     public abstract IEnumerable<TEntity> GetAll();

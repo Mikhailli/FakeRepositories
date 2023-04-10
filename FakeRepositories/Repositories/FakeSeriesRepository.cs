@@ -37,4 +37,21 @@ public class FakeSeriesRepository : FakeGenericRepository<Series>
         
         _collection.Add(series);
     }
+    
+    public IEnumerable<Series> GetByAnimeId(int animeId)
+    {
+        if (_animeCollection is null)
+        {
+            throw new ArgumentNullException(nameof(_animeCollection));
+        }
+
+        if (_animeCollection.Any(anime => anime.Id == animeId) is false)
+        {
+            throw new ArgumentException($"Аниме с id {animeId} не существует");
+        }
+
+        var result = _collection.Where(series => series.AnimeId == animeId);
+
+        return result;
+    }
 }

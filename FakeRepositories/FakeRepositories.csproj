@@ -51,6 +51,7 @@
         <Compile Include="Interfaces\GenericRepository.cs" />
         <Compile Include="Models\Anime.cs" />
         <Compile Include="Models\Character.cs" />
+        <Compile Include="Models\Extensions\BusinessLogic.cs" />
         <Compile Include="Models\Genre.cs" />
         <Compile Include="Models\Series.cs" />
         <Compile Include="Models\Studio.cs" />
@@ -62,6 +63,7 @@
         <Compile Include="Repositories\FakeGenreRepository.cs" />
         <Compile Include="Repositories\FakeSeriesRepository.cs" />
         <Compile Include="Repositories\FakeStudioRepository.cs" />
+        <Compile Include="Utils.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />

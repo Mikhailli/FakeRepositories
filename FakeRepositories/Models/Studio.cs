@@ -5,10 +5,7 @@ namespace FakeRepositories.Models;
 
 public class Studio : Entity<int>
 {
-    private string Title { get; set; }
+    public string Title { get; }
 
-    public Studio(string title)
-    {
-        Title = title;
-    }
+    public Studio(string title) => Title = title;
 }
