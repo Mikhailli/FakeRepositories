@@ -1,13 +1,8 @@
-﻿using FakeRepositories.Interfaces;
+﻿
 
 namespace FakeRepositories.Models;
 
-public class Genre : Entity<int>
+public record Genre(string Title)
 {
-    public string Title { get;}
-
-    public Genre(string title)
-    {
-        Title = title;
-    }
+    public string Title { get;} = Title;
 }

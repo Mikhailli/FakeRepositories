@@ -24,7 +24,7 @@ public static class BusinessLogic
         if (seriesNumber > seriesCount || seriesNumber <= 0)
         {
             throw new ArgumentException(
-                $"Невозможно получить серию номер {seriesNumber}, так как в аниме {anime.Title} всего {seriesCount} серий.");
+                $"Вы ввели отрицательный номер серии или невозможно получить серию номер {seriesNumber}, так как в аниме {anime.Title} всего {seriesCount} серий.");
         }
 
         var seasonNumbers = thisAnimeSeries.Select(s => s.SeasonNumber).Distinct();
@@ -55,7 +55,8 @@ public static class BusinessLogic
         var lastSeasonNumber = thisAnimeSeries.Select(s => s.SeasonNumber).Max();
 
         if (seasonNumber > lastSeasonNumber || seasonNumber <= 0)
-            return new List<Series>();
+            throw new ArgumentException(
+                $"Вы ввели неположительный номер сезона или невозможно получить сезон номер {seasonNumber}, так как в аниме {anime.Title} всего {lastSeasonNumber} сезона.");
 
         return thisAnimeSeries.Where(s => s.SeasonNumber == seasonNumber).ToList();
     }

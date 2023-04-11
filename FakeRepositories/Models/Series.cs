@@ -2,24 +2,15 @@
 
 namespace FakeRepositories.Models;
 
-public class Series : Entity<int>
+public record Series(int AnimeId, int SeriesNumber, int SeasonNumber, int SeriesDuration, string Link)
 {
-    public int AnimeId { get;}
+    public int AnimeId { get;} = AnimeId;
 
-    public int SeriesNumber { get;}
+    public int SeriesNumber { get;} = SeriesNumber;
 
-    public int SeasonNumber { get;}
+    public int SeasonNumber { get;} = SeasonNumber;
 
-    public int SeriesDuration { get;}
+    public int SeriesDuration { get;} = SeriesDuration;
 
-    public string Link { get;}
-
-    public Series(int animeId, int seriesNumber, int seasonNumber, int seriesDuration, string link)
-    {
-        AnimeId = animeId;
-        SeriesNumber = seriesNumber;
-        SeasonNumber = seasonNumber;
-        SeriesDuration = seriesDuration;
-        Link = link;
-    }
+    public string Link { get;} = Link;
 }

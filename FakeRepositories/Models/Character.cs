@@ -1,22 +1,14 @@
-﻿using FakeRepositories.Interfaces;
+﻿
 
 namespace FakeRepositories.Models;
 
-public class Character : Entity<int>
+public record Character(int AnimeId, string Name, string Photo, bool IsMainCharacter)
 {
-    public int AnimeId { get; }
+    public int AnimeId { get; } = AnimeId;
 
-    public string Name { get; }
+    public string Name { get; } = Name;
 
-    public bool IsMainCharacter { get; }
+    public bool IsMainCharacter { get; } = IsMainCharacter;
 
-    public string Photo { get; }
-
-    public Character(int animeId, string name, string photo, bool isMainCharacter)
-    {
-        AnimeId = animeId;
-        Name = name;
-        Photo = photo;
-        IsMainCharacter = isMainCharacter;
-    }
+    public string Photo { get; } = Photo;
 }

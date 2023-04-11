@@ -35,7 +35,7 @@ public class Anime : Entity<int>
         return obj is Anime anime && Equals(anime);
     }
 
-    protected bool Equals(Anime other)
+    public bool Equals(Anime other)
     {
         var isGenresEquals = EqualGenres(other.Genres);
         var isStudiosEquals = EqualStudios(other.Studios);

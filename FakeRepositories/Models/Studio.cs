@@ -1,11 +1,8 @@
-﻿using System.Collections.Generic;
-using FakeRepositories.Interfaces;
+﻿using FakeRepositories.Interfaces;
 
 namespace FakeRepositories.Models;
 
-public class Studio : Entity<int>
+public record Studio(string Title)
 {
-    public string Title { get; }
-
-    public Studio(string title) => Title = title;
+    public string Title { get; } = Title;
 }
