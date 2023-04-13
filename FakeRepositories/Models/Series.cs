@@ -1,7 +1,6 @@
-﻿using FakeRepositories.Interfaces;
+﻿namespace FakeRepositories.Models;
 
-namespace FakeRepositories.Models;
-
+// Объект-значение
 public record Series(int AnimeId, int SeriesNumber, int SeasonNumber, int SeriesDuration, string Link)
 {
     public int AnimeId { get;} = AnimeId;

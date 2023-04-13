@@ -1,7 +1,6 @@
-﻿using FakeRepositories.Interfaces;
+﻿namespace FakeRepositories.Models;
 
-namespace FakeRepositories.Models;
-
+// Объект-значение
 public record Studio(string Title)
 {
     public string Title { get; } = Title;

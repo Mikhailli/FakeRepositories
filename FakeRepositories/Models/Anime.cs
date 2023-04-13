@@ -3,6 +3,7 @@ using FakeRepositories.Interfaces;
 
 namespace FakeRepositories.Models;
 
+// Переопределен метод Equals
 public class Anime : Entity<int>
 {
     public string Title { get; set; }
@@ -30,11 +31,13 @@ public class Anime : Entity<int>
         Studios = studios;
     }
 
+    // Проверяет что сравниваемый объект тоже является объектом класса Anime
     public override bool Equals(object obj)
     {
         return obj is Anime anime && Equals(anime);
     }
 
+    // Проверяет равенство всех свойств
     public bool Equals(Anime other)
     {
         var isGenresEquals = EqualGenres(other.Genres);
@@ -49,6 +52,7 @@ public class Anime : Entity<int>
                isStudiosEquals;
     }
 
+    // Для сравнения по хэшу
     public override int GetHashCode()
     {
         unchecked
@@ -64,6 +68,7 @@ public class Anime : Entity<int>
         }
     }
 
+    // Сравнивает свойства Genres
     private bool EqualGenres(List<Genre> genres)
     {
         if (genres is null && Genres is null)
@@ -92,6 +97,7 @@ public class Anime : Entity<int>
         return true;
     }
     
+    // Сравнивает свойства Studios
     private bool EqualStudios(List<Studio> studios)
     {
         if (studios is null && Studios is null)

@@ -4,6 +4,7 @@ namespace FakeRepositories;
 
 public static class Utils
 {
+    // Корректирует склонение
     public static string ConvertSecondsToString(int seconds)
     {
         if (seconds <= 0)

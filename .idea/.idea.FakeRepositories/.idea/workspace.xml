@@ -6,37 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9d2b1fc1-0570-4cd8-885f-2f1b1405eee0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FakeRepositories/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FakeRepositories/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/CollectionExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/FakeRepositories.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/FakeRepositories.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Anime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Models/Anime.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Models/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Extensions/BusinessLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Models/Extensions/BusinessLogic.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Genre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Models/Genre.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Series.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Models/Series.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Studio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Models/Studio.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Repositories/FakeAnimeRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Repositories/FakeCharacterRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Repositories/FakeGenreRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Repositories/FakeSeriesRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Repositories/FakeStudioRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/bin/Debug/FakeRepositories.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/bin/Debug/FakeRepositories.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/bin/Debug/FakeRepositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/bin/Debug/FakeRepositories.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositoriesTests/FakeRepositoriesTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositoriesTests/BusinessLogicTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositoriesTests/FakeRepositoriesTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositoriesTests/FakeRepositoriesTests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositoriesTests/bin/Debug/FakeRepositories.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositoriesTests/bin/Debug/FakeRepositories.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositoriesTests/bin/Debug/FakeRepositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositoriesTests/bin/Debug/FakeRepositories.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositoriesTests/bin/Debug/FakeRepositoriesTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositoriesTests/bin/Debug/FakeRepositoriesTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositoriesTests/bin/Debug/FakeRepositoriesTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositoriesTests/bin/Debug/FakeRepositoriesTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositoriesTests/obj/Debug/FakeRepositoriesTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositoriesTests/obj/Debug/FakeRepositoriesTests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositoriesTests/obj/Debug/FakeRepositoriesTests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositoriesTests/obj/Debug/FakeRepositoriesTests.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositoriesTests/obj/Debug/FakeRepositoriesTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositoriesTests/obj/Debug/FakeRepositoriesTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositoriesTests/obj/Debug/FakeRepositoriesTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositoriesTests/obj/Debug/FakeRepositoriesTests.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +44,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.FakeRepositories">
+  <component name="RunManager">
     <configuration name="FakeRepositories" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -103,7 +77,8 @@
       <workItem from="1678589269614" duration="10037000" />
       <workItem from="1678619419037" duration="772000" />
       <workItem from="1678620304502" duration="4876000" />
-      <workItem from="1681202906179" duration="7575000" />
+      <workItem from="1681202906179" duration="7665000" />
+      <workItem from="1681374082335" duration="219000" />
     </task>
     <servers />
   </component>
@@ -131,14 +106,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/FakeRepositoriesTests/BusinessLogicTests.cs</url>
           <line>61</line>
-          <properties documentPath="C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositoriesTests\FakeRepositoriesTests.cs" initialLine="133" containingFunctionPresentation="method 'FakeStudioRepository_Add_AddStudiosInCollection'">
-            <startOffsets>
-              <option value="1295" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1296" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositoriesTests\FakeRepositoriesTests.cs" initialLine="133" containingFunctionPresentation="method 'FakeStudioRepository_Add_AddStudiosInCollection'" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">

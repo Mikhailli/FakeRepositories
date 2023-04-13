@@ -6,15 +6,18 @@ namespace FakeRepositories.Models.Extensions;
 
 public static class BusinessLogic
 {
+    // Время необходимая для просмотра все аниме
     public static string GetTimeToWatchAllSeries(this Anime anime, List<Series> series)
     {
         var thisAnimeSeries = series.Where(s => s.AnimeId == anime.Id).ToList();
 
         var duration = thisAnimeSeries.Sum(s => s.SeriesDuration);
 
+        // Корректирует склонение (секунда, секунды и т.д.)
         return Utils.ConvertSecondsToString(duration);
     }
     
+    // Получение серии по ее сквозному номеру
     public static Series GetSeriesByNumber(this Anime anime, List<Series> series, int seriesNumber)
     {
         var thisAnimeSeries = series.Where(s => s.AnimeId == anime.Id).ToList();
@@ -49,6 +52,7 @@ public static class BusinessLogic
         return seriesToReturn;
     }
     
+    // Получение всех серий сезона
     public static List<Series> GetSeasonSeries(this Anime anime, List<Series> series, int seasonNumber)
     {
         var thisAnimeSeries = series.Where(s => s.AnimeId == anime.Id).ToList();
@@ -61,6 +65,7 @@ public static class BusinessLogic
         return thisAnimeSeries.Where(s => s.SeasonNumber == seasonNumber).ToList();
     }
     
+   // Получение последней серии 
     public static Series GetLastSeries(this Anime anime, List<Series> series)
     {
         var thisAnimeSeries = series.Where(s => s.AnimeId == anime.Id).ToList();

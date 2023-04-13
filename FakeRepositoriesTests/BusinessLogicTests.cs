@@ -10,6 +10,7 @@ namespace FakeRepositoriesTests;
 [TestClass]
 public class Tests
 {
+    // Проверяет получение времени необходимого для просмотра всего ание
     [DataTestMethod]
     [DataRow(8, 3, "24 секунды")]
     [DataRow(1, 1, "1 секунда")]
@@ -36,6 +37,7 @@ public class Tests
         Assert.AreEqual(expectedResult, result);
     }
     
+    // Получение серии при некорректном номере серии
     [DataTestMethod]
     [DataRow(-1)]
     [DataRow(0)]
@@ -55,6 +57,7 @@ public class Tests
         Assert.AreEqual($"Вы ввели отрицательный номер серии или невозможно получить серию номер {seriesNumberToFind}, так как в аниме {anime.Title} всего 60 серий.", exception.Message);
     }
     
+    // Получение всех серий сезона
     [DataTestMethod]
     [DataRow(1)]
     [DataRow(2)]
@@ -76,6 +79,7 @@ public class Tests
         Assert.IsTrue(CompareCollectionsOfSeries(result, seriesWithCorrectSeason));
     }
     
+    // Получение серий сезона при некорректном номере сезона
     [DataTestMethod]
     [DataRow(0)]
     [DataRow(-1)]
@@ -96,6 +100,7 @@ public class Tests
         Assert.AreEqual($"Вы ввели неположительный номер сезона или невозможно получить сезон номер {seasonNumber}, так как в аниме {anime.Title} всего 3 сезона.", exception.Message);
     }
     
+    // Получение последней серии
     [TestMethod]
     public void GetLastSeries_ReturnsCorrectSeries()
     {

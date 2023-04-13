@@ -1,7 +1,6 @@
-﻿
+﻿namespace FakeRepositories.Models;
 
-namespace FakeRepositories.Models;
-
+// Объект-значение
 public record Character(int AnimeId, string Name, string Photo, bool IsMainCharacter)
 {
     public int AnimeId { get; } = AnimeId;
