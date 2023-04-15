@@ -1,55 +1,42 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
+using System.Threading.Tasks;
 
 namespace FakeRepositories.Interfaces;
 
 public abstract class GenericRepository<TEntity> where TEntity : Entity<int>
 {
-    protected readonly ICollection<TEntity> _collection;
-
-    protected GenericRepository(ICollection<TEntity> collection)
-    {
-        _collection = collection;
-    }
-
-    public abstract TEntity GetById(int id);
-
+    public abstract TEntity GetById(object? id);
+    
+    public abstract Task<TEntity> GetByIdAsync(object id);
+    
     public abstract IEnumerable<TEntity> GetAll();
     
-    public abstract int GetCount();
+    public abstract IEnumerable<TEntity> Get(Expression<Func<TEntity, bool>>? filter = null,
+        Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
+        Expression<Func<TEntity, object>>[]? includes = null, int? skip = null,
+        int? take = null);
+    
+    public abstract Task<List<TEntity>> GetAsync(Expression<Func<TEntity, bool>>? filter = null,
+        Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
+        Expression<Func<TEntity, object>>[]? includes = null, int? skip = null,
+        int? take = null);
+    
+    public abstract int GetCount(Expression<Func<TEntity, bool>>? predicate = null);
 
-    public virtual void Add(TEntity entity)
-    {
-        if (_collection is null)
-        {
-            throw new ArgumentNullException(nameof(_collection));
-        }
+    public abstract TEntity Create();
 
-        var id = 1;
-        
-        if (_collection.Any())
-        {
-            id = _collection.Max(element => element.Id) + 1;
-        }
-        
-        entity.Id = id;
-        
-        _collection.Add(entity);
-    }
+    public abstract TEntity Add(TEntity entity);
 
-    public virtual void Delete(TEntity genre)
-    {
-        if (_collection is null)
-        {
-            throw new ArgumentNullException(nameof(_collection));
-        }
+    public abstract void Update(TEntity entity);
 
-        if (_collection.Any(element => element.Id == genre.Id) is false)
-        {
-            throw new ArgumentException($"Сущность для удаления отсутствует.");
-        }
+    public abstract void Delete(TEntity entity);
 
-        _collection.Remove(genre); 
-    }
+    public abstract void DeleteRange(TEntity[] entities);
+
+    public abstract void RefreshAll();
+
+    public abstract TEntity Clone(TEntity entity);
 }

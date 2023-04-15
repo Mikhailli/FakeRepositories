@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeRepositories", "FakeRepositories\FakeRepositories.csproj", "{B96B1A6E-887C-438E-BDD0-BA1D0A52127C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeRepositoriesTests", "FakeRepositoriesTests\FakeRepositoriesTests.csproj", "{D99DC482-DF88-47A6-A2F7-86290CFCCE0F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,9 +12,5 @@ Global
 		{B96B1A6E-887C-438E-BDD0-BA1D0A52127C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B96B1A6E-887C-438E-BDD0-BA1D0A52127C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B96B1A6E-887C-438E-BDD0-BA1D0A52127C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D99DC482-DF88-47A6-A2F7-86290CFCCE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D99DC482-DF88-47A6-A2F7-86290CFCCE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D99DC482-DF88-47A6-A2F7-86290CFCCE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D99DC482-DF88-47A6-A2F7-86290CFCCE0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

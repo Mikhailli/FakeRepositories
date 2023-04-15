@@ -15,19 +15,25 @@ public class Anime : Entity<int>
 
     public string Link { get; set; }
 
-    public ICollection<int> StudioIds { get; set; }
+    public virtual ICollection<Studio> Studios { get; set; }
 
-    public ICollection<int> GenreIds { get; set; }
+    public virtual ICollection<Genre> Genres { get; set; }
 
     public Anime(string title, bool isEnd, string description, string ageLimit, string link, 
-        ICollection<int> studioIds, ICollection<int> genreIds)
+        List<Studio> studios, List<Genre> genres)
     {
         Title = title;
         IsEnd = isEnd;
         Description = description;
         AgeLimit = ageLimit;
         Link = link;
-        StudioIds = studioIds;
-        GenreIds = genreIds;
+        Studios = studios;
+        Genres = genres;
+    }
+    
+    public Anime()
+    {
+        Studios = new List<Studio>();
+        Genres = new List<Genre>();
     }
 }
