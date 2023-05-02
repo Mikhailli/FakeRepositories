@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using FakeRepositories.Interfaces;
 using FakeRepositories.Models;
-using FakeRepositories.Models.Extensions;
 
 namespace FakeRepositories;
 
@@ -10,29 +7,33 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        var context = new ApplicationContext();
+        var repo = new XmlRepositoryBase();
+        var character2 = new Character("Курису Макисэ", "", true){Id = 4};
+        repo.Insert(character2);
+        //var context = new ApplicationContext();
 
-        var animeRepository = new EFGenericRepository<Anime>(context);
+        /*var animeRepository = new EFGenericRepository<Anime>(context);
         var characterRepository = new EFGenericRepository<Character>(context);
         var genreRepository = new EFGenericRepository<Genre>(context);
         var seriesRepository = new EFGenericRepository<Series>(context);
         var studioRepository = new EFGenericRepository<Studio>(context);
 
+        var logic = new UseCases(animeRepository, seriesRepository);
 
         var dbName = context.Database.Connection.Database;
         var anime = animeRepository.GetAll().First();
         var characters = characterRepository.Get(character => character.AnimeId == anime.Id);
-        var series = seriesRepository.Get(series => series.AnimeId == anime.Id);
-        
-        Console.WriteLine(dbName);
+        var series = seriesRepository.Get(series => series.AnimeId == anime.Id);*/
+
+        /*Console.WriteLine(dbName);
         Console.WriteLine($@"Название {anime.Title}, возрастное ограничение {anime.AgeLimit}, количество серий {series.Count()}");
         Console.WriteLine(@"Главные персонажи:");
         foreach (var character in characters)
         {
             Console.WriteLine($@"{character.Name}");
         }
-        Console.WriteLine(@"Жанры:");
-        foreach (var genre in anime.Genres)
+        Console.WriteLine(@"Жанры:");*/
+        /*foreach (var genre in anime.Genres)
         {
             Console.WriteLine($@"{genre.Title}");
         }
@@ -40,10 +41,10 @@ internal class Program
         foreach (var studio in anime.Studios)
         {
             Console.WriteLine($@"{studio.Title}");
-        }
-        Console.WriteLine($@"Время необходимое для просмотра всего аниме: {anime.GetTimeToWatchAllSeries(series.ToList())}");
-        Console.ReadKey();
-        
+        }*/
+        /*Console.WriteLine($@"Время необходимое для просмотра всего аниме: {logic.GetTimeToWatchAllSeries("Врата штейна")}");
+        Console.ReadKey();*/
+
         // Код для начального заполнения бд, сейчас не нужен так как бд уже заполнена
         /*var anime = new Anime("Врата штейна", true, "", "16+", "", 
             new List<Studio>(), new List<Genre>());

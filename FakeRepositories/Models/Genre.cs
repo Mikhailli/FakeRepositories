@@ -3,20 +3,15 @@ using FakeRepositories.Interfaces;
 
 namespace FakeRepositories.Models;
 
-public class Genre : Entity<int>
+public sealed class Genre : Entity<int>
 {
     public string Title { get; set; }
 
-    public virtual ICollection<Anime> Animes { get; set; }
+    public ICollection<int> AnimeIds { get; set; }
 
-    public Genre()
-    {
-        Animes = new List<Anime>();
-    }
-    
-    public Genre(string title, List<Anime> animes)
+    public Genre(string title, List<int> animeIds)
     {
         Title = title;
-        Animes = animes;
+        AnimeIds = animeIds;
     }
 }
