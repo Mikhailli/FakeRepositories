@@ -18,10 +18,13 @@ internal class Program
         var seriesRepository = new EFGenericRepository<Series>(context);
         var studioRepository = new EFGenericRepository<Studio>(context);
 
+
+        var dbName = context.Database.Connection.Database;
         var anime = animeRepository.GetAll().First();
         var characters = characterRepository.Get(character => character.AnimeId == anime.Id);
         var series = seriesRepository.Get(series => series.AnimeId == anime.Id);
         
+        Console.WriteLine(dbName);
         Console.WriteLine($@"Название {anime.Title}, возрастное ограничение {anime.AgeLimit}, количество серий {series.Count()}");
         Console.WriteLine(@"Главные персонажи:");
         foreach (var character in characters)

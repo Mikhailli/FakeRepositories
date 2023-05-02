@@ -5,34 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d2b1fc1-0570-4cd8-885f-2f1b1405eee0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FakeRepositories/Models/Extensions/BusinessLogic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FakeRepositories/Utils.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FakeRepositories/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FakeRepositories/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/CollectionExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/FakeGenericRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/FakeRepositories.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/FakeRepositories.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Interfaces/GenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Interfaces/GenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Anime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Models/Anime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Models/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Genre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Models/Genre.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Series.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Models/Series.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Studio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Models/Studio.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FakeRepositories/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Repositories/FakeAnimeRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Repositories/FakeCharacterRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Repositories/FakeGenreRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Repositories/FakeSeriesRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Repositories/FakeStudioRepository.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FakeRepositories/bin/Debug/FakeRepositories.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/bin/Debug/FakeRepositories.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FakeRepositories/bin/Debug/FakeRepositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/bin/Debug/FakeRepositories.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/packages.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +78,8 @@
       <workItem from="1678619419037" duration="772000" />
       <workItem from="1678620304502" duration="4876000" />
       <workItem from="1681525051760" duration="4111000" />
-      <workItem from="1681529993671" duration="310000" />
+      <workItem from="1681529993671" duration="903000" />
+      <workItem from="1682414839696" duration="1851000" />
     </task>
     <servers />
   </component>
@@ -137,6 +116,32 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/FakeRepositories/Program.cs</url>
+          <line>23</line>
+          <properties documentPath="C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\Program.cs" initialLine="21" containingFunctionPresentation="method 'Main'">
+            <startOffsets>
+              <option value="783" />
+            </startOffsets>
+            <endOffsets>
+              <option value="868" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/FakeRepositories/Program.cs</url>
+          <line>21</line>
+          <properties documentPath="C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\Program.cs" initialLine="21" containingFunctionPresentation="method 'Main'">
+            <startOffsets>
+              <option value="691" />
+            </startOffsets>
+            <endOffsets>
+              <option value="720" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
