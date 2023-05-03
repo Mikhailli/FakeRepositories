@@ -8,10 +8,10 @@ namespace FakeRepositories.Domain;
 
 public class UseCases
 {
-    private readonly GenericRepository<Anime> _animeRepository;
-    private readonly GenericRepository<Series> _seriesRepository;
+    private readonly IRepository<Anime> _animeRepository;
+    private readonly IRepository<Series> _seriesRepository;
 
-    public UseCases(GenericRepository<Anime> animeRepository, GenericRepository<Series> seriesRepository)
+    public UseCases(IRepository<Anime> animeRepository, IRepository<Series> seriesRepository)
     {
         _animeRepository = animeRepository;
         _seriesRepository = seriesRepository;

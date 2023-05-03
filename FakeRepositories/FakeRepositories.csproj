@@ -276,11 +276,13 @@
     <Compile Include="ConvertXMLToModel.cs" />
     <Compile Include="Domain\UseCases.cs" />
     <Compile Include="EFGenericRepository.cs" />
-    <Compile Include="Interfaces\BaseEntity.cs" />
-    <Compile Include="Interfaces\IEntity.cs" />
     <Compile Include="Interfaces\GenericRepository.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
-    <Compile Include="Interfaces\XMLRepositoryBase.cs" />
+    <Compile Include="Interfaces\XmlAnimeRepository.cs" />
+    <Compile Include="Interfaces\XmlCharacterRepository.cs" />
+    <Compile Include="Interfaces\XmlGenreRepository.cs" />
+    <Compile Include="Interfaces\XmlSeriesRepository.cs" />
+    <Compile Include="Interfaces\XmlStudioRepository.cs" />
     <Compile Include="Migrations\202304141459543_InitialCreate.cs" />
     <Compile Include="Migrations\202304141459543_InitialCreate.designer.cs">
       <DependentUpon>202304141459543_InitialCreate.cs</DependentUpon>

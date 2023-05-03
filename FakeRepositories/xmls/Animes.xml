@@ -1,18 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <animes>
-    <anime name="Врата Штейна" id="anime1">
-        <isend>true</isend>
-        <description> </description>
-        <agelimit>16+</agelimit>
-        <link> </link>
-        <studios_refs>
-            <studio_ref id="studio1"/>
-        </studios_refs>
-        <genres_refs>
-            <genre_ref id="genre1"/>
-            <genre_ref id="genre2"/>
-            <genre_ref id="genre3"/>
-            <genre_ref id="genre4"/>
-        </genres_refs>
-    </anime>
+  <anime name="Врата Штейна" id="anime1">
+    <isend>true</isend>
+    <description>
+    </description>
+    <agelimit>16+</agelimit>
+    <link>
+    </link>
+    <studios_refs>
+      <studio_ref id="studio1" />
+    </studios_refs>
+    <genres_refs>
+      <genre_ref id="genre1" />
+      <genre_ref id="genre2" />
+      <genre_ref id="genre3" />
+      <genre_ref id="genre4" />
+    </genres_refs>
+  </anime>
 </animes>
