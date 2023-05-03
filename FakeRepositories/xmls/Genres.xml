@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<genres>
+  <genre name="Психологическое" id="genre2">
+    <anime_refs>
+      <anime_ref id="anime1" />
+    </anime_refs>
+  </genre>
+  <genre name="Триллер" id="genre3">
+    <anime_refs>
+      <anime_ref id="anime1" />
+    </anime_refs>
+  </genre>
+  <genre name="Фантастика" id="genre4">
+    <anime_refs>
+      <anime_ref id="anime1" />
+    </anime_refs>
+  </genre>
+  <genre name="Драма" id="genre1">
+    <anime_refs>
+      <anime_ref id="anime1" />
+    </anime_refs>
+  </genre>
+</genres>

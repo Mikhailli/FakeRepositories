@@ -12,9 +12,8 @@ public class Character : Entity<int>
 
     public string Photo { get; set; }
 
-    public Character(int animeId, string name, string photo, bool isMainCharacter)
+    public Character(string name, string photo, bool isMainCharacter)
     {
-        AnimeId = animeId;
         Name = name;
         Photo = photo;
         IsMainCharacter = isMainCharacter;

@@ -10,13 +10,12 @@ public class Series : Entity<int>
 
     public int SeasonNumber { get; set; }
 
-    public string SeriesDuration { get; set; }
+    public int SeriesDuration { get; set; }
 
     public string Link { get; set; }
 
-    public Series(int animeId, int seriesNumber, int seasonNumber, string seriesDuration, string link)
+    public Series(int seriesNumber, int seasonNumber, int seriesDuration, string link)
     {
-        AnimeId = animeId;
         SeriesNumber = seriesNumber;
         SeasonNumber = seasonNumber;
         SeriesDuration = seriesDuration;

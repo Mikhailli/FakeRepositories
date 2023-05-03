@@ -3,7 +3,7 @@ using FakeRepositories.Interfaces;
 
 namespace FakeRepositories.Models;
 
-public class Anime : Entity<int>
+public sealed class Anime : Entity<int>
 {
     public string Title { get; set; }
 
@@ -15,19 +15,19 @@ public class Anime : Entity<int>
 
     public string Link { get; set; }
 
-    public ICollection<int> StudioIds { get; set; }
+    public ICollection<int> StudiosIds { get; set; }
 
-    public ICollection<int> GenreIds { get; set; }
+    public ICollection<int> GenresIds { get; set; }
 
     public Anime(string title, bool isEnd, string description, string ageLimit, string link, 
-        ICollection<int> studioIds, ICollection<int> genreIds)
+        List<int> studiosIds, List<int> genresIds)
     {
         Title = title;
         IsEnd = isEnd;
         Description = description;
         AgeLimit = ageLimit;
         Link = link;
-        StudioIds = studioIds;
-        GenreIds = genreIds;
+        StudiosIds = studiosIds;
+        GenresIds = genresIds;
     }
 }

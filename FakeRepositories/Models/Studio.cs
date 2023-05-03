@@ -3,12 +3,15 @@ using FakeRepositories.Interfaces;
 
 namespace FakeRepositories.Models;
 
-public class Studio : Entity<int>
+public sealed class Studio : Entity<int>
 {
-    private string Title { get; set; }
+    public string Title { get; set; }
 
-    public Studio(string title)
+    public ICollection<int> AnimeIds { get; set; }
+
+    public Studio(string title, List<int> animeIds)
     {
         Title = title;
+        AnimeIds = animeIds;
     }
 }
