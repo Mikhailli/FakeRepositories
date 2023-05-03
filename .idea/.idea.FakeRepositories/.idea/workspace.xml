@@ -5,25 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d2b1fc1-0570-4cd8-885f-2f1b1405eee0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FakeRepositories/Interfaces/BaseEntityy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FakeRepositories/Interfaces/IEntityy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FakeRepositories/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FakeRepositories/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Domain/UseCases.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Domain/UseCases.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/ApplicationContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/EFGenericRepository.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FakeRepositories/FakeRepositories.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/FakeRepositories.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Interfaces/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Interfaces/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Interfaces/XMLRepositoryBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Interfaces/GenericRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304141459543_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304141459543_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304141459543_InitialCreate.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150232194_fix.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150232194_fix.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150232194_fix.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150300464_fix2.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150300464_fix2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150300464_fix2.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150343228_fix3.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150343228_fix3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150343228_fix3.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/Configuration.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FakeRepositories/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/bin/Debug/FakeRepositories.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/bin/Debug/FakeRepositories.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/bin/Debug/FakeRepositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/bin/Debug/FakeRepositories.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/xmls/Animes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/xmls/Animes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/xmls/Characters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/xmls/Characters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/xmls/Genres.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/xmls/Genres.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/xmls/Series.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/xmls/Series.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/xmls/Studios.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/xmls/Studios.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/repository.default.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeRepositories/repository.xml.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +114,7 @@
       <workItem from="1682993857833" duration="8464000" />
       <workItem from="1683012984403" duration="9843000" />
       <workItem from="1683085531228" duration="3065000" />
+      <workItem from="1683088668978" duration="507000" />
     </task>
     <servers />
   </component>

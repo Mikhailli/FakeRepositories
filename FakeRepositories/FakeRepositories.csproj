@@ -272,34 +272,16 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationContext.cs" />
     <Compile Include="ConvertXMLToModel.cs" />
     <Compile Include="Domain\UseCases.cs" />
-    <Compile Include="EFGenericRepository.cs" />
-    <Compile Include="Interfaces\GenericRepository.cs" />
+    <Compile Include="Interfaces\BaseEntityy.cs" />
+    <Compile Include="Interfaces\IEntityy.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Interfaces\XmlAnimeRepository.cs" />
     <Compile Include="Interfaces\XmlCharacterRepository.cs" />
     <Compile Include="Interfaces\XmlGenreRepository.cs" />
     <Compile Include="Interfaces\XmlSeriesRepository.cs" />
     <Compile Include="Interfaces\XmlStudioRepository.cs" />
-    <Compile Include="Migrations\202304141459543_InitialCreate.cs" />
-    <Compile Include="Migrations\202304141459543_InitialCreate.designer.cs">
-      <DependentUpon>202304141459543_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202304150232194_fix.cs" />
-    <Compile Include="Migrations\202304150232194_fix.designer.cs">
-      <DependentUpon>202304150232194_fix.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202304150300464_fix2.cs" />
-    <Compile Include="Migrations\202304150300464_fix2.designer.cs">
-      <DependentUpon>202304150300464_fix2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202304150343228_fix3.cs" />
-    <Compile Include="Migrations\202304150343228_fix3.designer.cs">
-      <DependentUpon>202304150343228_fix3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Anime.cs" />
     <Compile Include="Models\Character.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -310,26 +292,9 @@
     <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202304141459543_InitialCreate.resx">
-      <DependentUpon>202304141459543_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202304150232194_fix.resx">
-      <DependentUpon>202304150232194_fix.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202304150300464_fix2.resx">
-      <DependentUpon>202304150300464_fix2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202304150343228_fix3.resx">
-      <DependentUpon>202304150343228_fix3.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="repository.default.json" />
-    <Content Include="repository.xml.json" />
     <Content Include="xmls\Animes.xml" />
     <Content Include="xmls\Characters.xml" />
     <Content Include="xmls\Genres.xml" />

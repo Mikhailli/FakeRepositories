@@ -79,11 +79,6 @@ C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\
 C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\obj\Debug\FakeRepositories.Migrations.InitialCreate.resources
-C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\obj\Debug\FakeRepositories.csproj.GenerateResource.cache
-C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\obj\Debug\FakeRepositories.Migrations.fix.resources
-C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\obj\Debug\FakeRepositories.Migrations.fix2.resources
-C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\obj\Debug\FakeRepositories.Migrations.fix3.resources
 C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -112,3 +107,4 @@ C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\
 C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\Microsoft.Extensions.Options.xml
 C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\Microsoft.Extensions.Primitives.xml
 C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Михаил\RiderProjects\FakeRepositories\FakeRepositories\obj\Debug\FakeRepositories.exe.config
