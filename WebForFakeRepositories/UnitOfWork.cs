@@ -1,6 +1,4 @@
-﻿using FakeRepositories;
-using FakeRepositories.Interfaces;
-using FakeRepositories.Models;
+﻿using FakeRepositories.Interfaces;
 using WebForFakeRepositories.Models;
 
 namespace WebForFakeRepositories;
@@ -22,11 +20,6 @@ public class UnitOfWork : IDisposable
     public IRepository<Genre> Genres => _genreRepository ??= new EFGenericRepository<Genre>(_context);
     public IRepository<Series> Series => _seriesRepository ??= new EFGenericRepository<Series>(_context);
     public IRepository<Studio> Studios => _studioRepository ??= new EFGenericRepository<Studio>(_context);
-    
-    public void Save()
-    {
-        _context.SaveChanges();
-    }
 
     protected virtual void Dispose(bool disposing)
     {
