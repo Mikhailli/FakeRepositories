@@ -283,6 +283,7 @@
     <Compile Include="Interfaces\XmlSeriesRepository.cs" />
     <Compile Include="Interfaces\XmlStudioRepository.cs" />
     <Compile Include="Models\Anime.cs" />
+    <Compile Include="Models\BusinessLogic.cs" />
     <Compile Include="Models\Character.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Series.cs" />

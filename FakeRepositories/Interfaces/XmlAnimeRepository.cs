@@ -12,7 +12,7 @@ public class XmlAnimeRepository : IRepository<Anime>
     private XmlGenreRepository _genreRepository;
     private XmlStudioRepository _studioRepository; 
 
-    private string _filename =
+    private readonly string _filename =
         "C:\\Users\\Михаил\\RiderProjects\\FakeRepositories\\FakeRepositories\\xmls\\Animes.xml";
     
     public XmlAnimeRepository(XmlGenreRepository genreRepository = null, XmlStudioRepository studioRepository = null)

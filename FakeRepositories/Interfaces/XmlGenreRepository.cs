@@ -11,7 +11,7 @@ public class XmlGenreRepository : IRepository<Genre>
     private XmlDocument _xDoc = new ();
     private XmlAnimeRepository _animeRepository;
 
-    private string _filename =
+    private readonly string _filename =
         "C:\\Users\\Михаил\\RiderProjects\\FakeRepositories\\FakeRepositories\\xmls\\Genres.xml";
     
     public XmlGenreRepository(XmlAnimeRepository repository = null)

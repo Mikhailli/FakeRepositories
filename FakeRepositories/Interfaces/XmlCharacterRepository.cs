@@ -11,7 +11,7 @@ public class XmlCharacterRepository : IRepository<Character>
 {
     private XmlDocument _xDoc = new XmlDocument();
 
-    private string _filename =
+    private readonly string _filename =
         "C:\\Users\\Михаил\\RiderProjects\\FakeRepositories\\FakeRepositories\\xmls\\Characters.xml";
     
     public XmlCharacterRepository()

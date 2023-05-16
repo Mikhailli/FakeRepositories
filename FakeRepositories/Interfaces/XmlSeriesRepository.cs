@@ -9,7 +9,7 @@ public class XmlSeriesRepository : IRepository<Series>
 {
     private XmlDocument _xDoc = new ();
 
-    private string _filename =
+    private readonly string _filename =
         "C:\\Users\\Михаил\\RiderProjects\\FakeRepositories\\FakeRepositories\\xmls\\Series.xml";
     
     public XmlSeriesRepository()
