@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<characters>
+    <character name="Итару Хасида" id="character1">
+        <photo>
+        </photo>
+        <ismaincharacter>true</ismaincharacter>
+        <anime id="anime1" />
+    </character>
+    <character name="Курису Макисэ" id="character2">
+        <photo>
+        </photo>
+        <ismaincharacter>true</ismaincharacter>
+        <anime id="anime1" />
+    </character>
+    <character name="Ринтаро Окабэ" id="character3">
+        <photo>
+        </photo>
+        <ismaincharacter>true</ismaincharacter>
+        <anime id="anime1" />
+    </character>
+</characters>

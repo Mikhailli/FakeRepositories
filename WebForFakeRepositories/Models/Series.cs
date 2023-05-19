@@ -21,6 +21,14 @@ public class Series : Entity<int>
         
     }
     
+    public Series(int seriesNumber, int seasonNumber, int seriesDuration, string link)
+    {
+        SeriesNumber = seriesNumber;
+        SeasonNumber = seasonNumber;
+        SeriesDuration = seriesDuration;
+        Link = link;
+    }
+    
     public Series(int seriesNumber, int seasonNumber, int seriesDuration, string link, Anime anime)
     {
         SeriesNumber = seriesNumber;

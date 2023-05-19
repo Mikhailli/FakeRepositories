@@ -19,6 +19,13 @@ public class Character : Entity<int>
         
     }
 
+    public Character(string name, string photo, bool isMainCharacter)
+    {
+        Name = name;
+        Photo = photo;
+        IsMainCharacter = isMainCharacter;
+    }
+    
     public Character(string name, string photo, bool isMainCharacter, Anime anime)
     {
         Name = name;

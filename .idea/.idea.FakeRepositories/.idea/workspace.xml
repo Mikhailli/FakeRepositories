@@ -8,14 +8,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d2b1fc1-0570-4cd8-885f-2f1b1405eee0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/ConvertXMLToModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Interfaces/IAnimeState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Interfaces/Repository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Interfaces/XmlCharacterRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Interfaces/XmlGenreRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Interfaces/XmlSeriesRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Interfaces/XmlStudioRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/ModelNames.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/AbandonedAnimeState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/PlanningAnimeState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/WatchedAnimeState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/WatchingAnimeState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/RepositoryFabric.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/RepositoryType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/xmls/Animes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/xmls/Characters.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/xmls/Genres.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/xmls/Series.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/xmls/Studios.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FakeRepositories/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FakeRepositories/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/Models/Anime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/Anime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/Models/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/Models/Genre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/Genre.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/Models/Series.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/Series.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/Models/Studio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/Studio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/bin/Debug/net6.0/WebForFakeRepositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/bin/Debug/net6.0/WebForFakeRepositories.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/bin/Debug/net6.0/WebForFakeRepositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/bin/Debug/net6.0/WebForFakeRepositories.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/WebForFakeRepositories.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/WebForFakeRepositories.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/WebForFakeRepositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/WebForFakeRepositories.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/WebForFakeRepositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/WebForFakeRepositories.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/ref/WebForFakeRepositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/ref/WebForFakeRepositories.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/refint/WebForFakeRepositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/refint/WebForFakeRepositories.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +52,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JSON File" />
+        <option value="XML File" />
       </list>
     </option>
   </component>
@@ -40,6 +66,7 @@
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/af09c1a994624091bc1a622423c31f2990650/ff/36ba8806/DefaultSqlExecutionStrategy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/f237a55ab16d4649b96170604924f6b94bf450/ab/030a60cd/LazyInternalContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/SourcesCache/29ea32a76b2a6b8eb246f247df6a6a86d887384b4c31db2a35effccdd86c24/JsonSerializerInternalReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/SourcesCache/475af23c2ae6d398d69f377b15ac41be05f467a170d3362ed4af5d32489/XmlTextReaderImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/SourcesCache/e2e3d26278e439d44964729238a685ad58d3189abf8fb84cdfe34b893a290a2/JsonSerializerInternalWriter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/SourcesCache/f3b9684f72bc2cc435eb694f7cc86eca8c240d2d1cefa1e8697a61f1f2f27f/SafeFileHandle.Windows.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4b76c3e709534801a173f34a1d6b3dfc522790/6e/abd901c5/Object.cs" root0="SKIP_HIGHLIGHTING" />
@@ -61,15 +88,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ReSharper&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.4951574",
+    "settings.editor.selected.configurable": "ReSharper",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebForFakeRepositories">
     <configuration name="ConsoleApp1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -156,6 +184,7 @@
       <workItem from="1682414839696" duration="1851000" />
       <workItem from="1683104459440" duration="1755000" />
       <workItem from="1683166289209" duration="13174000" />
+      <workItem from="1684478787209" duration="5035000" />
     </task>
     <servers />
   </component>
@@ -269,6 +298,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebForFakeRepositories/Program.cs</url>
+          <line>14</line>
+          <properties documentPath="C:\Users\Михаил\RiderProjects\FakeRepositories\WebForFakeRepositories\Program.cs" initialLine="11" containingFunctionPresentation="method 'Main'">
+            <startOffsets>
+              <option value="377" />
+            </startOffsets>
+            <endOffsets>
+              <option value="422" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

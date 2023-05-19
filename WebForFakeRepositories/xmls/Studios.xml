@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<studios>
+    <studio name="White Fox" id="studio1">
+        <anime_refs>
+            <anime_ref id="anime1" />
+            <anime_ref id="anime2" />
+        </anime_refs>
+    </studio>
+</studios>

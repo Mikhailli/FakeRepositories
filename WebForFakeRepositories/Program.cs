@@ -1,4 +1,5 @@
 using Newtonsoft.Json;
+using WebForFakeRepositories.Models;
 
 namespace WebForFakeRepositories;
 
@@ -6,6 +7,11 @@ public static class Program
 {
     public static void Main(string[] args)
     {
+        var anime = new Anime(new AbandonedAnimeState());
+        anime.AddToAbandoned(anime).AddToPlanning(anime).AddToWatching(anime).AddToWatched(anime);
+
+        Console.ReadKey();
+        
         var builder = WebApplication.CreateBuilder();
         
         var app = builder.Build();

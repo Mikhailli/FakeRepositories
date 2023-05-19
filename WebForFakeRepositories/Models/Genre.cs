@@ -15,6 +15,12 @@ public class Genre : Entity<int>
         Animes = new List<Anime>();
     }
     
+    public Genre(string title, List<int> animeIds)
+    {
+        Title = title;
+        AnimeIds = animeIds;
+    }
+    
     public Genre(string title, List<Anime> animes)
     {
         Title = title;

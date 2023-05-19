@@ -15,6 +15,12 @@ public class Studio : Entity<int>
         Animes = animes;
     }
     
+    public Studio(string title, List<int> animeIds)
+    {
+        Title = title;
+        AnimeIds = animeIds;
+    }
+    
     public Studio()
     {
         Animes = new List<Anime>();

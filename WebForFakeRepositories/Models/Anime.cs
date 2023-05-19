@@ -1,10 +1,33 @@
-﻿using FakeRepositories.Models;
-using WebForFakeRepositories.Interfaces;
+﻿using WebForFakeRepositories.Interfaces;
 
 namespace WebForFakeRepositories.Models;
 
 public class Anime : Entity<int>
 {
+    public IAnimeState State { get; set; }
+
+    public Anime(IAnimeState state)
+    {
+        State = state;
+    }
+    
+    public Anime AddToPlanning(Anime anime)
+    {
+        return State.AddToPlanning(this);
+    }
+    public Anime AddToWatching(Anime anime)
+    {
+        return State.AddToWatching(this);
+    }
+    public Anime AddToWatched(Anime anime)
+    {
+        return State.AddToWatched(this);
+    }
+    public Anime AddToAbandoned(Anime anime)
+    {
+        return State.AddToAbandoned(this);
+    }
+
     public string Title { get; set; }
 
     public bool IsEnd { get; set; }
