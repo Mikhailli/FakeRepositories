@@ -8,52 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d2b1fc1-0570-4cd8-885f-2f1b1405eee0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/BLService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Controllers/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/ConvertJsonToModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Interfaces/IRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/JsonRepositories/JsonAnimeRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/JsonRepositories/JsonCharacterRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/JsonRepositories/JsonGenreRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/JsonRepositories/JsonSeriesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/JsonRepositories/JsonStudioRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Jsons/Animes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Jsons/Characters.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Jsons/Genres.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Jsons/Series.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Jsons/Studios.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebForFakeRepositories/UnitOfWork.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FakeRepositories/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FakeRepositories/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/ApplicationContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/ApplicationContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/EFGenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/EFGenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/FakeRepositories.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/FakeRepositories.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Interfaces/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Interfaces/BaseEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Interfaces/GenericRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Interfaces/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Interfaces/IEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304141459543_InitialCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304141459543_InitialCreate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304141459543_InitialCreate.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150232194_fix.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150232194_fix.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150232194_fix.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150300464_fix2.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150300464_fix2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150300464_fix2.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150343228_fix3.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150343228_fix3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/202304150343228_fix3.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Migrations/Configuration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Anime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/Anime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Extensions/BusinessLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/Extensions/BusinessLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Genre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/Genre.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Series.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/Series.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Models/Studio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Models/Studio.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/Utils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/Utils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FakeRepositories/obj/Debug/FakeRepositories.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/bin/Debug/net6.0/WebForFakeRepositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/bin/Debug/net6.0/WebForFakeRepositories.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/bin/Debug/net6.0/WebForFakeRepositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/bin/Debug/net6.0/WebForFakeRepositories.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/WebForFakeRepositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/WebForFakeRepositories.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/WebForFakeRepositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/WebForFakeRepositories.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/ref/WebForFakeRepositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/ref/WebForFakeRepositories.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/refint/WebForFakeRepositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/obj/Debug/net6.0/refint/WebForFakeRepositories.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebForFakeRepositories/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/WebForFakeRepositories/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,27 +248,13 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/WebForFakeRepositories/ConvertJsonToModel.cs</url>
           <line>33</line>
-          <properties documentPath="C:\Users\Михаил\RiderProjects\FakeRepositories\ConsoleApp1\ConvertJsonToModel.cs" initialLine="33" containingFunctionPresentation="method 'ConvertJsonToStudios'">
-            <startOffsets>
-              <option value="1469" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1549" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\Михаил\RiderProjects\FakeRepositories\ConsoleApp1\ConvertJsonToModel.cs" initialLine="33" containingFunctionPresentation="method 'ConvertJsonToStudios'" />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/WebForFakeRepositories/ConvertJsonToModel.cs</url>
           <line>41</line>
-          <properties documentPath="C:\Users\Михаил\RiderProjects\FakeRepositories\ConsoleApp1\ConvertJsonToModel.cs" initialLine="41" containingFunctionPresentation="method 'ConvertJsonToAnimes'">
-            <startOffsets>
-              <option value="1834" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1912" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\Михаил\RiderProjects\FakeRepositories\ConsoleApp1\ConvertJsonToModel.cs" initialLine="41" containingFunctionPresentation="method 'ConvertJsonToAnimes'" />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
